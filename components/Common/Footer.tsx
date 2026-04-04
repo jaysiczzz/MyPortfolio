@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-blue-950 dark:bg-slate-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Brand Section */}
+          
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-xl font-bold mb-4">My Portfolio</h3>
             <p className="text-blue-200 dark:text-slate-300 mb-4">
@@ -31,7 +31,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
+          
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
@@ -42,7 +42,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact Info */}
+          
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <div className="space-y-2 text-blue-200 dark:text-slate-300">
@@ -60,7 +60,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom Bar */}
+        
         <div className="border-t border-blue-900 dark:border-slate-700 mt-8 pt-8 text-center">
           <p className="text-blue-200 dark:text-slate-300">
             © {new Date().getFullYear()} My Portfolio. All rights reserved.

@@ -62,15 +62,15 @@ function CardGrid({ items }: { items: typeof hobbies }) {
                     key={title}
                     className="group relative bg-card border border-border rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden"
                 >
-                    {/* Background glow on hover */}
+                    
                     <div className={`absolute inset-0 bg-gradient-to-br ${color} opacity-0 group-hover:opacity-5 transition-opacity duration-300 rounded-2xl`} />
 
-                    {/* Icon */}
+                    
                     <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br ${color} mb-4 shadow-md`}>
                         <Icon className="w-6 h-6 text-white" />
                     </div>
 
-                    {/* Content */}
+                    
                     <h3 className="text-lg font-semibold mb-2">{title}</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">{description}</p>
                 </div>
@@ -84,7 +84,7 @@ export function Interest() {
         <section className="py-16 px-6 lg:px-0 space-y-16">
             <div className="max-w-7xl mx-auto space-y-16">
 
-                {/* Interests */}
+                
                 <div>
                     <div className="text-center mb-12">
                         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">
@@ -97,10 +97,10 @@ export function Interest() {
                     <CardGrid items={interests} />
                 </div>
 
-                {/* Divider */}
+                
                 <div className="border-t border-border" />
 
-                {/* Hobbies */}
+                
                 <div>
                     <div className="text-center mb-12">
                         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">

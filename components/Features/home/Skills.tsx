@@ -69,7 +69,7 @@ export function Skills() {
     return (
         <section className="py-16 px-6 lg:px-0">
             <div className="max-w-7xl mx-auto">
-                {/* Header */}
+                
                 <div className="text-center mb-12">
                     <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">
                         My Skills
@@ -79,26 +79,26 @@ export function Skills() {
                     </p>
                 </div>
 
-                {/* Grid */}
+                
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     {skills.map(({ title, description, level, color, bgColor, emoji }) => (
                         <div
                             key={title}
                             className="group relative bg-card border border-border rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden"
                         >
-                            {/* Background glow on hover */}
+                           
                             <div className={`absolute inset-0 bg-gradient-to-br ${color} opacity-0 group-hover:opacity-5 transition-opacity duration-300 rounded-2xl`} />
 
-                            {/* Badge icon */}
+                            
                             <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br ${color} mb-4 shadow-md`}>
                                 <span className="text-white font-bold text-sm">{emoji}</span>
                             </div>
 
-                            {/* Content */}
+                           
                             <h3 className="text-lg font-semibold mb-2">{title}</h3>
                             <p className="text-sm text-muted-foreground leading-relaxed mb-4">{description}</p>
 
-                            {/* Progress bar */}
+                            
                             <div className="w-full bg-muted rounded-full h-1.5">
                                 <div
                                     className={`bg-gradient-to-r ${color} h-1.5 rounded-full transition-all duration-700`}
