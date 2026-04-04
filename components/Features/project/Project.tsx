@@ -18,7 +18,7 @@ export function Projects() {
   const [selected, setSelected] = useState<Project | null>(null);
 
   const projects: Project[] = [
-    { id: 1, title: "Portfolio Website",         category: "Web",    image: "/Portfolio.Jpg",     description: "A personal portfolio website showcasing my skills, projects, and experience as a developer." },
+    { id: 1, title: "Portfolio Website",         category: "Web",    image: "/portfolio.Jpg",     description: "A personal portfolio website showcasing my skills, projects, and experience as a developer." },
     { id: 2, title: "Daily Brew Coffee Shop",    category: "Web",    image: "/brew.jpg",          description: "A modern website for a coffee shop featuring an online menu, store info, and a contact form." },
     { id: 3, title: "Chat App",                  category: "Mobile", image: "/ChatApp.jpg",       description: "A real-time mobile chat application with private messaging, group chats, and push notifications." },
     { id: 4, title: "Library Management System", category: "System", image: "/LMS.jpg",           description: "A full-featured system for managing books, members, borrowing records, and overdue tracking." },
